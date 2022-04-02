@@ -34,4 +34,4 @@ override.tf.json
 terraform.rc
 
 # 
-meta.txt
+meta.yml
