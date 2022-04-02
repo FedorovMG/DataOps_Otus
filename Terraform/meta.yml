@@ -1,0 +1,7 @@
+users:
+  - name: admin-f
+    groups: sudo
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDB+gfBs1PFewpemhKJLAoLH/IYLIZfmWOhsHK4Zb7iajKemhfrdqn3FGFsypnZ1XYoOx/38fSSJ8kGUGeGATDYEu/MuCsyZ+dcdteAAryD2a2KZXAywUPxS+MH1fHCjKErd2PPNnIMQLEVbAfA8nI8Kvhdwx1WPJmZTh5VgxAqfQxxCowt6b9lZqoLy9Zqut2BcuabhX7gED05JZCg4XLUwnII/F91JhA4NrBT2Ux2bRdWw/YX63YIaO1c+A8N5rlLI00oHIC409eqjaXvCsB5N4tgEuZuf6sntQng34i3OTELCj5+0iog1P4dmm/TdaWrbrjWIbVoBH3MS9avb+0+hA44oaf1WdFIhe/79OV5ZwnLYhmegktw4J51AVquKh1yI+Fhg6i46sm2VNOIXUY/rSQYxmyE3fou2PoUnxauhZGCcipZO8hpr/gg8XxPoDdsSM7abc8RpcaFfk+ZKqvRvu6amKNKVH1a9jTM3YtGGxn8lDTk+hfYK3YJmFr3cJM= admin-f@UbuntuPC
