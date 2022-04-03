@@ -1,0 +1,14 @@
+---
+- name: Install nginx & postgres
+  hosts: all
+  become: true
+  remote_user: ubuntu
+
+  tasks:
+  - name: Install nginx
+    apt:
+      name: nginx
+
+  - name: Install postgres
+    apt:
+      name: postgressql
