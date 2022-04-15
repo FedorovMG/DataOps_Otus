@@ -2,9 +2,12 @@
 - name: Install nginx & postgres
   hosts: all
   become: true
-  remote_user: admin-f
+  remote_user: ubuntu
 
   tasks:
+  - name: Update Cashe
+    apt:
+      update_cache: yes
   - name: Install nginx
     apt:
       name: nginx
