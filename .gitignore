@@ -36,3 +36,6 @@ terraform.rc
 # 
 meta.yml
 workspace.code-workspace
+
+#
+**/venv/*
