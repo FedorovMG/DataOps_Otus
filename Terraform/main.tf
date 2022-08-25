@@ -9,8 +9,8 @@ terraform {
 
 provider "yandex" {
   token     = var.IAM_TOKEN
-  cloud_id  = "b1giqd0arvqt4siutdft"
-  folder_id = "b1g0t9q22oe0oi4bloju"
+  cloud_id  = "b1grj0jojvomeq49ubcr"
+  folder_id = "b1goihmfkqolpie3ef6a"
   zone      = "ru-central1-a"
 }
 resource "yandex_compute_instance" "vm-1" {
